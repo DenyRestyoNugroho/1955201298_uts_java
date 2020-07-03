@@ -18,5 +18,15 @@ public class jjoptionpane {
          
         String usia = JOptionPane.showInputDialog(" Usia ");
         JOptionPane.showMessageDialog(null, " Usia anda " +usia );
+        
+        String takok = JOptionPane.showInputDialog(" alamat ");
+        JOptionPane.showMessageDialog(null, " alamat anda adalah " +takok );
+        
+        String nama = JOptionPane.showInputDialog(" nama ayah ");
+        JOptionPane.showMessageDialog(null, " ayah anda  " +nama ); 
+        
+        String msg = (" biodata " + "\nnama :" +tanya + "\nusia anda : "+usia+ "\nalamat anda  : "+takok+ "\nnama ayah : "+nama);
+        JOptionPane.showMessageDialog(null, msg);
+        
     }
 }
